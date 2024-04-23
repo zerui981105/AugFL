@@ -32,4 +32,19 @@ or pretrain a model by yourself
 python train_teacher_model.py
 ```
 
-**<font size=6>Getting started</font>**
+**<font size=6>Training AugFL</font>**:
+
+```
+python launch_w_PM.py
+```
+
+**<font size=6>Experiment results</font>**:
+
+We evaluate AugFL, FedAvg, Per-FedAvg on CIFAR-10, CIFAR-100, EMNIST, Fashion-MNIST.
+
+| Dataset         | FedAvg          | Per-FedAvg      | AugFL(ours)     | 
+| --------------- | --------------- | --------------- | --------------- | 
+| CIFAR-10        | 54.41% ± 0.64%  | 67.17% ± 2.34%  | 74.49% ± 2.16%  | 
+| CIFAR-100       | 46.18% ± 2.92%  | 48.25% ± 8.27%  | 57.35% ± 1.76%  | 
+| EMNIST          | 54.34% ± 1.62%  | 69.74% ± 1.58%  | 79.89% ± 1.69%  |
+| Fashion-MNIST   | 73.95% ± 3.68%  | 90.23% ± 3.23%  | 94.04% ± 1.16%  | 
