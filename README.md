@@ -48,3 +48,7 @@ We evaluate AugFL, FedAvg, Per-FedAvg on CIFAR-10, CIFAR-100, EMNIST, Fashion-MN
 | CIFAR-100       | 46.18% ± 2.92%  | 48.25% ± 8.27%  | 57.35% ± 1.76%  | 
 | EMNIST          | 54.34% ± 1.62%  | 69.74% ± 1.58%  | 79.89% ± 1.69%  |
 | Fashion-MNIST   | 73.95% ± 3.68%  | 90.23% ± 3.23%  | 94.04% ± 1.16%  | 
+
+Introducing the PM improves the performance like following:
+
+![image](https://github.com/zerui981105/AugFL/blob/main/ablation.png)
